@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class MainContent extends StatefulWidget {
   @override
@@ -16,6 +17,7 @@ class _MainContentState extends State<MainContent> {
 
   @override
   Widget build(BuildContext context) {
+    // debugPaintSizeEnabled = true;
     return Scaffold(
       appBar: AppBar(title: const Text("就是TMD秀")),
       body: Column(
